@@ -1,0 +1,24 @@
+{
+  "run_time_utc": "2026-11-22T15:43:00.472319+00:00",
+  "freshness_cutoff_utc": "2026-11-21T15:43:00.472319+00:00",
+  "counts": {
+    "Startups": 21768,
+    "Products": 1166,
+    "Research Papers": 1000,
+    "Jobs": 93,
+    "News": 107,
+    "Entity Mapping Log": 22934
+  },
+  "targets": {
+    "startups": 1000,
+    "products": 1000,
+    "research_papers": 1000
+  },
+  "notes": [
+    "Only records with traceable source URLs are exported.",
+    "News/jobs are filtered by source publication timestamps within the 24 hours before this run.",
+    "If a feed/API has no timestamp, the record is excluded rather than assumed fresh.",
+    "GitHub stars are populated only when an explicit GitHub repository URL is present in arXiv metadata.",
+    "Startup source repository schema may change; check the run log and source URLs."
+  ]
+}

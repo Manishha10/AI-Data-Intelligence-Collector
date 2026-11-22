@@ -1,0 +1,12 @@
+QUICK START (Windows)
+1. Extract the ZIP.
+2. Open the extracted folder in File Explorer.
+3. Click the address bar, type cmd, press Enter.
+4. Run these commands one by one:
+
+py -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+python collect_data.py
+
+The workbook will be inside the output folder.
